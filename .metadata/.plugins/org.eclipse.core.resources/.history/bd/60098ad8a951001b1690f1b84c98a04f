@@ -1,0 +1,14 @@
+
+public class Ordenador {
+	private String teclas;
+	private int numeroTeclas;
+	
+	public Ordenador(String t, int num) {
+		teclas = t;
+		numeroTeclas = num;
+	}
+	
+	public String getOrdenador() {
+		return teclas;
+	}
+}

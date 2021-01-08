@@ -1,0 +1,38 @@
+
+import java.io.*;
+
+class DiaAnyo {
+    private int mes;
+    private int dia;
+
+    public DiaAnyo(int d, int m) {
+        dia = d;
+        mes = m;
+    }
+
+    public boolean igual(DiaAnyo d){
+        if ((dia == d.dia) && (mes == d.mes)) 
+         return true;
+        else 
+            return false;
+    }
+    // muestra en pantalla el mes y el día
+    public void visualizar(){
+        System.out.println("mes= " + mes + " ,dia = " + dia)
+    }
+}
+
+
+public class Cumple {
+    public static void main(String[] ar) throws IOException {
+        DiaAnyo hoy;
+        DiaAnyo cumpleayos;
+    }
+    int d, m;
+    bufferedReader entrada = new BufferedReader(
+        new InputStreamReader(System.in)
+    );
+    System.out.print("Introduzca el numero de mes: ");
+    d = Integer.parseInt(entrada.readLine());
+
+}

@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Ordenador s = new Ordenador("alphanumerico", 4);
+		// TODO Auto-generated method stub
+		System.out.println(s.getOrdenador());
+
+	}
+
+}
